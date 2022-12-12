@@ -6,7 +6,7 @@ echo "$BUILDKITE_BUILD_CHECKOUT_PATH"
 
 if grep -inr -C1 "🤡" . ; then
   echo "^^^ +++"
-  echo "+++ :warning: Detected clowns! 🔪"
-  exit 1
+  echo "+++ :warning: Detected clowns!!!! 🔪"
+  exit 0
 fi
 
