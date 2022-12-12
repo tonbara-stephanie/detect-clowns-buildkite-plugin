@@ -9,4 +9,3 @@ if grep -inr -C1 "🤡" . ; then
   echo "+++ :warning: Detected clowns!!!! 🔪"
   exit 0
 fi
-
